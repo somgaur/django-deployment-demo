@@ -3,6 +3,6 @@ from django.http import JsonResponse
 
 def hello(request):
     return JsonResponse({
-        "message": "Hello from GitHub Actions!",
+        "message": "Hello from GitHub Actions with db!",
         "status": "success"
     })
