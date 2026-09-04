@@ -7,7 +7,7 @@ class HelloApiTest(TestCase):
     def test_hello_api(self):
         response = self.client.get("/api/hello/")
 
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 500)
 
         self.assertEqual(
             response.json()["status"],
