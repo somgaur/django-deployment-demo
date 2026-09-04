@@ -26,7 +26,7 @@ import os
 
 SECRET_KEY = os.environ.get(
     "DJANGO_SECRET_KEY",
-    "django-insecure-local-development-key"
+    "django-insecure-!wvtdnnb1hzg=12a_8i&zld6^1&*t@w&)i+(6j3mqwt$ai)#x%"
 )
 
 # SECURITY WARNING: don't run with debug turned on in production!
